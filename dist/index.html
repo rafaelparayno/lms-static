@@ -6,6 +6,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Try</title>
+  <style>
+    /* width */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px grey; 
+      border-radius: 10px;
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: rgb(213, 130, 238); 
+      border-radius: 10px;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgb(173, 54, 209); 
+    }
+    </style>
 </head>
 <body class="bg-gray-800">
   <div class="bg-gray-700 p-4 flex justify-between items-center px-auto mb-5">
@@ -29,19 +52,66 @@
       <div class="flex flex-col">
      
         <div class="flex">
-          <img src="https://avatars.dicebear.com/api/bottts/:seed.svg?b=ffffff" width="100" alt="" srcset="">
-          <div class="flex flex-col">
-              <span class="block">John Doe</span>
+          <img src="https://avatars.dicebear.com/api/bottts/:seed.svg?b=ffffff" width="150" alt="" srcset="">
+          <div class="flex flex-col ml-5">
+              <span class="block mb-5 text-xl">John Doe</span>
               <span class="block">Learned 20 words</span>
               <span class="block">Learned 5 Quiz</span>
           </div>
         </div>
       </div>
       <div class="col-span-2">
-        <div class="h-96 border-blue-400 rounded-md bg-gray-700 rounded-lg border-white ">
+        <div class="h-96 border-blue-400 rounded-md bg-gray-700 rounded-lg border-white overflow-auto">
           <div class="border-bottom p-5">
             <h2>Activities</h2>
-            
+            <hr class="mb-5">
+            <div class="flex flex-col">
+              
+              <div class="flex items-center m-5">
+                <img class="mr-5" src="https://avatars.dicebear.com/api/bottts/:seed.svg?b=ffffff" width="75" alt="" srcset="">
+                <div class="">
+                  You learned 20 of 20 words in basic 500
+                  <span class="block text-sm">2 days ago</span>
+                </div>
+              </div>
+              
+              
+              <div class="flex items-center m-5">
+                <img class="mr-5" src="https://avatars.dicebear.com/api/bottts/:seed.svg?b=ffffff" width="75" alt="" srcset="">
+                <div class="">
+                  You learned 20 of 20 words in basic 500
+                  <span class="block text-sm">2 days ago</span>
+                </div>
+              </div>
+
+              
+              <div class="flex items-center m-5">
+                <img class="mr-5" src="https://avatars.dicebear.com/api/bottts/:seed.svg?b=ffffff" width="75" alt="" srcset="">
+                <div class="">
+                  You learned 20 of 20 words in basic 500
+                  <span class="block text-sm">2 days ago</span>
+                </div>
+              </div>
+
+              
+              <div class="flex items-center m-5">
+                <img class="mr-5" src="https://avatars.dicebear.com/api/bottts/:seed.svg?b=ffffff" width="75" alt="" srcset="">
+                <div class="">
+                  You learned 20 of 20 words in basic 500
+                  <span class="block text-sm">2 days ago</span>
+                </div>
+              </div>
+
+              
+              <div class="flex items-center m-5">
+                <img class="mr-5" src="https://avatars.dicebear.com/api/bottts/:seed.svg?b=ffffff" width="75" alt="" srcset="">
+                <div class="">
+                  You learned 20 of 20 words in basic 500
+                  <span class="block text-sm">2 days ago</span>
+                </div>
+              </div>
+
+            </div>
           </div>
         </div>
       
